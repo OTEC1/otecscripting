@@ -111,7 +111,7 @@ const About = () => {
 
 
     useEffect(() => {
-      setInitialRenderComplete(true);
+      setInitialRenderComplete(true); 
     }, []);
     if (!initialRenderComplete) {
       return null;
